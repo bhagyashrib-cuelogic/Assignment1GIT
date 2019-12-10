@@ -6,6 +6,7 @@ class cal
 {
 	int res=0;
 	int mul=0;
+	int sub=0;
 	public int AdditinCal(int x,int y)
 	{
 	 return res=x+y;
@@ -14,7 +15,11 @@ class cal
 	{
 	 return mul=x*y;
 	}
-	
+
+	public int SubtractionCal(int x,int y)
+	{
+		return sub=x-y;
+	}
 }
 
 class Arithmatic
@@ -34,5 +39,8 @@ public static void main(String[] arg)
 	System.out.println("Addition of two numbers is : "+c.res);
 	System.out.println("Multiplication of two numbers is : "+c.mul);
 
+
+	c.SubtractionCal(a,b);
+	System.out.println("Subtraction of two numbers is : "+c.sub);
 }
 }
