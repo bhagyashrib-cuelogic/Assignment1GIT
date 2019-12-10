@@ -10,10 +10,12 @@ class cal
 	{
 	 return res=x+y;
 	}
+
 	public int SubtractionCal(int x,int y)
 	{
 		return sub=x-y;
 	}
+
 }
 
 class Arithmatic
