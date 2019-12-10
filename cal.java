@@ -5,9 +5,14 @@ import java.util.Scanner;
 class cal
 {
 	int res=0;
+	int mul=0;
 	public int AdditinCal(int x,int y)
 	{
 	 return res=x+y;
+	}
+	public int MultiplicationCal(int x,int y)
+	{
+	 return mul=x*y;
 	}
 	
 }
@@ -25,6 +30,9 @@ public static void main(String[] arg)
 	cal c = new cal();
 	
 	c.AdditinCal(a,b);
+	cMultiplicationCal(a,b)
 	System.out.println("Addition of two numbers is : "+c.res);
+	System.out.println("Multiplication of two numbers is : "+c.mul);
+
 }
 }
