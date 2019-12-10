@@ -6,6 +6,7 @@ class cal
 {
 	int res=0;
 	int sub=0;
+	int div=0;
 	public int AdditinCal(int x,int y)
 	{
 	 return res=x+y;
@@ -21,6 +22,10 @@ class cal
 	        {
 		      return sub=y-x;
 	        }
+	}
+	public int DivisionCal(int x,int y)
+	{
+	 return div=x/y;
 	}
 }
 
@@ -38,7 +43,9 @@ public static void main(String[] arg)
 	
 	c.AdditinCal(a,b);
 	c.SubtractionCal(a,b);
+	c.Divisioncal(a,b);
 	System.out.println("Addition of two numbers is : "+c.res);
 	System.out.println("Subtraction of two numbers is : "+c.sub);
+	System.out.println("Division of two numbers is : "+c.div);
 }
 }
